@@ -9,9 +9,9 @@ process.addEventListener("click", onClick)
 
 function onClick() {
 
-    var inputText = input.value;
+    var inputText = input.value;            //storing the input value
     
-    if (inputText%4 == 0){
+    if (inputText%4 == 0){                  //logic part
 
         output.innerHTML = "It is leap year"
 
